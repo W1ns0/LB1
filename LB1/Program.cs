@@ -7,8 +7,8 @@ namespace LB1
         {
             using (ApplicationContext db = new ApplicationContext())
             {
-                User user1 = new User { Name = "Tom", Age = 33 };
-                User user2 = new User { Name = "Alice", Age = 26 };
+                User user1 = new User { Name = "Том", Age = 33 };
+                User user2 = new User { Name = "Алиса", Age = 26 };
 
                 db.Users.AddRange(user1, user2);
                 db.SaveChanges();

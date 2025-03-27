@@ -56,7 +56,6 @@
             labelUsers.TabIndex = 0;
             labelUsers.Text = "Список пользователей:";
             labelUsers.TextAlign = ContentAlignment.TopCenter;
-            labelUsers.Click += labelUsers_Click;
             // 
             // panel2
             // 
@@ -69,14 +68,14 @@
             panel2.Size = new Size(684, 491);
             panel2.TabIndex = 1;
             // 
-            // labellnfAboutUsers
+            // labelInfAboutUsers
             // 
             labelInfAboutUsers.Dock = DockStyle.Fill;
             labelInfAboutUsers.Location = new Point(10, 10);
-            labelInfAboutUsers.Name = "labellnfAboutUsers";
+            labelInfAboutUsers.Name = "labelInfAboutUsers";
             labelInfAboutUsers.Size = new Size(664, 471);
             labelInfAboutUsers.TabIndex = 0;
-            labelInfAboutUsers.Text = "label1";
+            labelInfAboutUsers.Text = "";
             // 
             // FormMain
             // 
